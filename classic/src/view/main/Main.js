@@ -94,10 +94,20 @@ Ext.define('EmbryoTest2.view.main.Main', {
             html: '{loremIpsum}'
         }
     }, {
-        title: 'Settings',
+        title: 'SETTINGSSSSSS',
         iconCls: 'fa-cog',
         bind: {
             html: '{loremIpsum}'
         }
-    }]
+    }, {
+        title: 'Test',
+        iconCls: 'fa-cog',
+        items: [{
+            xtype: 'button',
+            ui: 'button-test',
+            text: 'Prova 1',
+            fieldLabel: 'Prova Label'
+
+        }]
+    }],
 });
