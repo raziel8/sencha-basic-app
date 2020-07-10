@@ -94,13 +94,13 @@ Ext.define('EmbryoTest2.view.main.Main', {
             html: '{loremIpsum}'
         }
     }, {
-        title: 'SETTINGSSSSSS',
+        title: 'Settings',
         iconCls: 'fa-cog',
         bind: {
             html: '{loremIpsum}'
         }
     }, {
-        title: 'Test',
+        title: 'Campo Test',
         iconCls: 'fa-cog',
         items: [{
             xtype: 'button',
